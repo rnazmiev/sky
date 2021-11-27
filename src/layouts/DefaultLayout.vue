@@ -19,3 +19,9 @@ export default {
     }
 }
 </script>
+
+<style lang="scss">
+    .main-layout {
+        display: grid;
+    }
+</style>

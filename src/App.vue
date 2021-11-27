@@ -20,6 +20,18 @@ export default {
 </script>
 
 <style>
+  html, body {
+    height: 100%;
+    /* overscroll-behavior-x: none; */
+  }
 
+  body {
+    padding: 0;
+    margin: 0;
+    /* overflow-x: hidden;
+    font-size: 14px; */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
 
 </style>

@@ -1,8 +1,10 @@
 <template>
     <div id="nav">
         <span>{{ title }}</span>
-        <router-link to="/">Home</router-link> |
-        <router-link to="/about">About</router-link>
+        <button>Найти путешественника</button>
+        <button>Опубликовать поездку</button>
+        <!-- <router-link to="/">Home</router-link> |
+        <router-link to="/about">About</router-link> -->
     </div>
 </template>
 
@@ -18,17 +20,12 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
     #nav {
         padding: 30px;
+        button {
+            border: 1px solid green;
+        }
     }
 
-    #nav a {
-        font-weight: bold;
-        color: #2c3e50;
-    }
-
-    #nav a.router-link-exact-active {
-        color: #42b983;
-    }
 </style>
