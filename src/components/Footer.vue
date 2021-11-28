@@ -1,6 +1,8 @@
 <template>
     <footer>
-        <p>footer</p>
+        <div class="container">
+            <p>footer</p>
+        </div>
     </footer>
 </template>
 
@@ -17,5 +19,9 @@ export default {
 </script>
 
 <style>
-    
+    footer {
+        background: #bdd4d7;
+        width: 100%;
+        height: 150px;
+    }
 </style>
